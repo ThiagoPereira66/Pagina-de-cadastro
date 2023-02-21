@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <h1>PAGINA DE CADASTRO</h1>
+    <div class="principal">
+
+        <div class="menu">
+                        
+            <div class="selecao">
+                <button>CADASTRAR</button>
+                <button>REMOVER</button>
+                <button>LISTA DE VIZITAS</button>
+            </div>
+        </div>
+
+        <div id="container-cadastro">
+
+            <h2>DIGITE SEUS DADOS</h2>
+
+            <form>
+                <input id="nome" type="text" placeholder="Nome completo" autocomplete="name" autofocus>
+
+                <input id="cidade" type="text" placeholder="Cidade" autocomplete="country-name">
+
+                <input id="empresa" type="text" placeholder="Nome da Empresa" autocomplete="name">
+
+                <select id="motivo-vizita">
+                    <option>Vizita comercial</option>
+                    <option>Cliente</option>
+                    <option>Fornecedor</option>
+                    <option>Prestador de serviço</option>
+
+                </select>
+
+                <button>OK</button>
+            </form>
+        </div>
+
+        <div class="confirma">
+            <h3>DESEJA SALVAR ESSE CONTATO ?</h3>
+            <button>SALVAR</button>
+        </div>
+    </div>
+</body>
+
+</html>

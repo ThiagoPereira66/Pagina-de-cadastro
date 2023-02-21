@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+h1{
+    position: absolute;
+    margin: 0 50%;
+}
+
+.principal{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container-cadastro{
+    position: relative;
+    left: 15px;    
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(40deg, rgba(0, 128, 0, 0.377), rgb(71, 68, 68, .55));
+    border-radius: 5px;
+    border:  1px solid rgba(204, 56, 56, 0.678);
+}
+form input, select {
+    position: relative;
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid white;
+}
+
+form button{
+    margin: 20px 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: greenyellow;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+
+}
+form button:active{
+    background: green;
+    color: whitesmoke;
+    border: 1px solid red;
+}
+
+.confirma{
+    width: 300px;
+    background: linear-gradient(40deg, rgba(0, 128, 0, 0.377), rgb(71, 68, 68, .55));
+    border-radius: 5px;
+    border:  1px solid rgba(204, 56, 56, 0.678);
+    height: 120px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.confirma button{
+    margin: 10px 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: greenyellow;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+.confirma button:active{
+    background: green;
+    color: whitesmoke;
+    border: 1px solid red;
+}
+
+.menu{
+    background-image: url(https://www.justwatch.com/images/poster/253994102/s332/temporada-12);
+    position: relative;
+    left: 15px;    
+    width: 330px;
+    height: 460px;   
+    border-radius: 5px;
+    border:  1px solid rgba(204, 56, 56, 0.678);
+    padding-top: 15px;
+    box-shadow: 0 0 20px 10px black;
+}
+
+.menu button{
+    margin-top: 20px;
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: rgba(228, 8, 8, 0.664);
+    color: white;
+    font-weight: bold;
+    box-shadow:  inset 0px 0px 10px 4px green;
+}
+.menu button:active{
+    box-shadow:  inset 0px 0px 10px 4px whitesmoke;
+   
+}
+.selecao{
+    position: relative;
+    top: 320px;
+}
